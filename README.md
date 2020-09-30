@@ -8,11 +8,13 @@ Scripts to create bulk Virtual servers, Pools, Pool members, Wide IP's, DNS (GTM
 When you run the script does not execute, ensure that filetype is added
 
 
-vi <script_name.sh>
+1. vi <script_name.sh>
 
-hit semi-colon  ":" and enter the following
+2. hit semi-colon  ":" and enter the following    :set fileformat=unix
 
-:set fileformat=unix
+4. Save the file  :wq!
+
+5. Re-run the script
                 
 ===========Python script====================================
 
