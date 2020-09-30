@@ -39,6 +39,6 @@ do
     IP=$(integer_to_dotted_decimal $START)
 #Change the F5 command as per the requirement.
     echo "Creating virtual server $NAME$i and IP: $IP"  
-    tmsh create ltm virtual $NAME$i { destination $IP:80 ip-protocol tcp mask 255.255.255.255 pool endurance_pool$i profiles add { http } }
+    tmsh create ltm virtual $NAME$i { destination $IP:80 ip-protocol tcp mask 255.255.255.255 pool test_pool$i profiles add { http } }
     ((START=START+1))
 done
