@@ -14,7 +14,7 @@ When you run the script does not execute, ensure that filetype is added
 
 4. Save the file  :wq!
 
-5. Re-run the script
+5. Run the script and it should work. 
                 
 ===========Python script====================================
 
