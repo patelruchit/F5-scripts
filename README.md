@@ -10,7 +10,7 @@ When you run the script does not execute, ensure that filetype is added
 
 1. vi <script_name.sh>
 
-2. hit semi-colon  ":" and enter the following    :set fileformat=unix
+2. Type ":" (colon) and enter    :set fileformat=unix
 
 4. Save the file  :wq!
 
