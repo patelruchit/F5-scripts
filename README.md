@@ -5,7 +5,7 @@ Scripts to create bulk Virtual servers, Pools, Pool members, Wide IP's, DNS (GTM
 
 ===========Bash script====================================
 
-When you run the script does not execute, ensure that filetype is added
+When you run the script and if it does not execute, ensure that filetype is added
 
 
 1. vi <script_name.sh>
