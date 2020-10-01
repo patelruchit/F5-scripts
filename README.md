@@ -18,6 +18,4 @@ When you run the script and if it does not execute, ensure that filetype is adde
                 
 ===========Python script====================================
 
-Lib. used:
-
-Paramiko
+Will be updated soon
